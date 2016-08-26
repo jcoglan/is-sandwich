@@ -1,0 +1,18 @@
+{ "name"            : "is-sandwich"
+, "description"     : "Tells you whether a thing is a sandwich"
+, "homepage"        : "http://github.com/jcoglan/is-sandwich"
+, "author"          : "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)"
+, "keywords"        : ["sandwich", "hotdog", "food", "machine-learning"]
+, "license"         : "GPL-3.0"
+
+, "version"         : "1.0.0"
+, "engines"         : {"node": ">=0.10.0"}
+, "main"            : "./index"
+, "bin"             : {"is-sandwich": "./bin/is-sandwich"}
+
+, "repository"      : { "type"  : "git"
+                      , "url"   : "git://github.com/jcoglan/is-sandwich.git"
+                      }
+
+, "bugs"            : "http://github.com/jcoglan/is-sandwich/issues"
+}

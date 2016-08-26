@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var isSandwich = require('../index'),
+    thing = process.argv[2];
+
+isSandwich(thing, function(error, decision) {
+  if (error) {
+    console.error(error.message);
+    process.exit(1);
+  } else {
+    console.log(decision ? 'Yes.' : 'No.');
+  }
+});
